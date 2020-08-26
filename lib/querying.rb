@@ -29,7 +29,7 @@ def select_name_and_series_subgenres_of_authors
     ON series.subgenre_id = subgenres.id"
 end
 
-def select_series_title_with_most_human_characters 
+def select_series_title_with_most_human_characters
     "SELECT series.title
     FROM series
     JOIN books
