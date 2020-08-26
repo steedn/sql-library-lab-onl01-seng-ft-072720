@@ -16,16 +16,15 @@ CREATE TABLE authors(
 );
 
 CREATE TABLE books (
-  id INTEGER PRIMARY KEY, 
-  year INTEGER, 
+  id INTEGER PRIMARY KEY,
+  year INTEGER,
   series_id INTEGER
 );
 
 CREATE TABLE characters (
   id INTEGER PRIMARY KEY,
-  name TEXT, 
-  species TEXT, 
+  name TEXT,
+  species TEXT,
   motto TEXT,
   author_id INTEGER
 );
-
